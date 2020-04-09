@@ -5,5 +5,9 @@
   "main": "index.js",
   "repository": "https://github.com/KyungOhKim/typechain",
   "author": "KyungOh Kim",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  }
 }
